@@ -1,0 +1,29 @@
+{
+  "name": "coding_challenge",
+  "version": "1.0.0",
+  "description": "Coding Challenge",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jasmine",
+    "start": "node -r dotenv/config index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LarryLemons34/Coding_challenge.git"
+  },
+  "author": "Spencer Crews",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LarryLemons34/Coding_challenge/issues"
+  },
+  "homepage": "https://github.com/LarryLemons34/Coding_challenge#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jasmine": "^3.5.0",
+    "jsonpath": "^1.0.2"
+  }
+}
